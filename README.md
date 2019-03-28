@@ -1,4 +1,4 @@
-# usefull-commands
+# useful-commands
 Repo for these commands that you usually use but that you forget easily
 
 ## Kill process running under certain port
