@@ -10,3 +10,5 @@ Repo for these commands that you usually use but that you forget easily
 ## Java
 ### Run SonarQube analysis
 ```mvn clean verify sonar:sonar```
+### Fix Lint Errors with Coveo
+```mvn com.coveo:fmt-maven-plugin:format```
