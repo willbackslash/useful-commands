@@ -6,6 +6,9 @@ Repo for these commands that you usually use but that you forget easily
 ### Postgres
 ```docker run -d -p 5432:5432 --name postgres -e POSTGRES_PASSWORD=password postgres```
 
+### MySQL
+```docker run -d -p 3306:3306 --name mysql -e MYSQL_ROOT_PASSWORD=password -d mysql:tag```
+
 ---
 ## Unix
 ### Kill process running under certain port
