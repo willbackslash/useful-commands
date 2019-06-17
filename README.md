@@ -1,6 +1,9 @@
 # useful-commands
 Repo for these commands that you usually use but that you forget easily
 
+## Install docker on ubuntu
+https://www.linode.com/docs/applications/containers/install-docker-ce-ubuntu-1804/
+
 ---
 ## Common Docker containers
 ### Postgres
