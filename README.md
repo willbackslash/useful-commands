@@ -24,3 +24,10 @@ https://www.linode.com/docs/applications/containers/install-docker-ce-ubuntu-180
 ```mvn clean verify sonar:sonar```
 ### Fix Lint Errors with Coveo
 ```mvn com.coveo:fmt-maven-plugin:format```
+
+---
+## Go
+### Init a go mod
+```go mod init```
+### Install a dependency (ex: gokit/kit)
+```go get github.com/go-kit/kit```
