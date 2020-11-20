@@ -18,6 +18,12 @@ https://www.linode.com/docs/applications/containers/install-docker-ce-ubuntu-180
 ```sudo kill $(sudo lsof -t -i:8000)``` OR
 ```sudo fuser -k -n tcp 8000 ```
 
+### Development
+#### Exporting variables from .env file
+```console
+set -a && source .env
+```
+
 ---
 ## Java
 ### Run SonarQube analysis
