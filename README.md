@@ -37,3 +37,8 @@ set -a && source .env
 ```go mod init```
 ### Install a dependency (ex: gokit/kit)
 ```go get github.com/go-kit/kit```
+
+---
+## GIT
+### Remove all local branches excluding master
+```git branch | grep -v "master" | xargs git branch -D ```
