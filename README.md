@@ -42,3 +42,7 @@ set -a && source .env
 ## GIT
 ### Remove all local branches excluding master
 ```git branch | grep -v "master" | xargs git branch -D ```
+
+# Useful websites
+Icons: https://yesicon.app
+
